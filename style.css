@@ -173,7 +173,7 @@ input[type="text"] {
     padding: 5px;
     width: 250px;
     text-align: center;
-    transition: 0.8s ease-out;
+    transition: 0.3s ease-out;
     border: none;
 }
 input[type="submit"] {
@@ -189,7 +189,7 @@ input[type="submit"] {
     transition: 0.5s ease-out;
 }
 input[type="submit"]:hover{
-    border: 2px solid white;
+    border: 2px solid #fb2274;
     background-color: #fb2274;
     color: white;
 }
@@ -205,4 +205,19 @@ input[type="text"]:focus{
     border: 3px solid #fb2274;
     border-radius: 50px;
     width: 350px;
+}
+#top{
+    /* background: url(/img/up-arrow1.png) no-repeat; */
+    background-position: center;
+    height: 50px;
+    width: 50px;
+    background-color: #fb2274;
+    position: fixed;
+    border-radius: 50%;
+    bottom:20px;
+    right:20px;
+}
+#img11{
+    width: 100%;
+    position: absolute;
 }
