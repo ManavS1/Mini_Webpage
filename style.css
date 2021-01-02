@@ -208,7 +208,7 @@ input[type="text"]:focus{
 }
 #top{
     /* background: url(/img/up-arrow1.png) no-repeat; */
-    background-position: center;
+    /* background-position: center; */
     height: 50px;
     width: 50px;
     background-color: #fb2274;
@@ -216,8 +216,10 @@ input[type="text"]:focus{
     border-radius: 50%;
     bottom:20px;
     right:20px;
+    text-align: center;
 }
-#img11{
-    width: 100%;
-    position: absolute;
+#top_scroll{
+    position: relative;
+    top: 12.5%;
+    color: white;
 }
